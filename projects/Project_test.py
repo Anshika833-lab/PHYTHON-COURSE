@@ -20,7 +20,7 @@ for name, grades in student.items():
     all_grades = [grade for grades in student.values() for grade in grades]
     class_average = sum(all_grades) / len(all_grades)
     print("the class average is:", class_average)
-    exit()
+    
 
 student_grades = input("Enter the student's name to view grades:")
 print("grades of", student_grades, "are:", student.get(student_grades, "Student not found"))
