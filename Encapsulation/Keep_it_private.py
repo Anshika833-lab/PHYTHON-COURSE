@@ -8,8 +8,8 @@ class myClass:
     def hello(self):
         print("Private Variable value: ",myClass.__privateVar)
 
-        foo = myClass()
-        foo.hello()
-        foo.__privMeth
+foo = myClass()
+foo.hello()
+foo.__privMeth
         
             
